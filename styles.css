@@ -1,0 +1,72 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.cont{
+    margin-left: 44%;
+    margin-top: 10%;
+}
+.color{
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid black;
+    box-shadow: inset -2em -2em 50px rgba(77, 62, 7, 0.432);
+}
+.btms{
+    background-color:rgb(128, 250, 57);
+    border:none;
+    width:98px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btm2s{
+    background-color:rgba(255, 77, 77, 0.986);
+    border:none;
+    width:98px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.borde{
+    border-radius:20px;
+    background-color:rgb(59, 71, 78);
+    color:rgb(250, 215, 217);
+    transition:all 0.2s;
+}
+.borde2:hover{
+    background-color:rgb(74, 101, 133);
+
+}
+.min{
+    background-color:rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    border:none;
+}
+.max{
+    background-color:rgb(81, 255, 0);
+    border: 1px solid rgb(0, 255, 21);
+    border:none;
+}
+
+.accder{
+    display:flex;
+    border:none;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 18px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.notacced{
+    display:none;
+}
