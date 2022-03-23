@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding:0px;
+    background-color:rgb(21, 25, 44);
     box-sizing: border-box;
 }
 *{
@@ -18,10 +19,18 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 1px solid black;
-    box-shadow: inset -2em -2em 50px rgba(77, 62, 7, 0.432);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset -2em -2em 50px rgba(0, 0, 0, 0.432);
 }
+.color p{
+    color:rgb(255, 255, 255);
+    padding: 75px;
+    font-size: 25px;
+    
+}
+
 .btms{
+    
     background-color:rgb(128, 250, 57);
     border:none;
     width:98px;
@@ -48,25 +57,58 @@ body{
 
 }
 .min{
-    background-color:rgb(255, 0, 0);
+    background-color:rgb(192, 16, 16);
     border: 1px solid rgb(255, 0, 0);
     border:none;
+    color:black;
 }
 .max{
     background-color:rgb(81, 255, 0);
     border: 1px solid rgb(0, 255, 21);
     border:none;
+    color: black;
+}
+input{
+    background-color:rgb(0, 0, 0);
+    color:rgb(251, 255, 0);
 }
 
 .accder{
     display:flex;
     border:none;
     border-radius: 5px;
-    width: 10%;
+    width: 20%;
     font-size: 18px;
     height: 30px;
     border: 1px solid rgb(0, 0, 0);
 }
 .notacced{
     display:none;
+}
+@media screen and (max-width: 400px) {
+    .cont{
+        margin-left: 44%;
+        margin-top: 40%;
+    }
+    .btms{
+        width:200px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .btm2s{
+
+        width:200px;
+        height:40px;
+        border-radius: 10px;
+    }
+    .accder{
+        display:flex;
+        border:none;
+        border-radius: 5px;
+        width: 200px;
+        font-size: 18px;
+        height: 30px;
+        border: 1px solid rgb(0, 0, 0);
+    }
 }
